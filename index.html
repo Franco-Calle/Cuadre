@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuadre</title>
+  <style>
+    :root { color-scheme: light dark; --fg: #1f2328; --bg: #ffffff; --muted: #59636e; --link: #0969da; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #e6edf3; --bg: #0d1117; --muted: #9198a1; --link: #4493f8; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    h1 { margin: 0 0 8px; font-size: 2rem; }
+    p.lead { color: var(--muted); margin-top: 0; }
+    a { color: var(--link); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Cuadre</h1>
+    <p class="lead">Control de caja para un agente bancario.</p>
+
+    <p>Cuadre es una aplicación de uso interno de un negocio de agente bancario en Perú. Sirve para registrar las operaciones del día (depósitos, retiros, pagos de servicio y recargas) y cuadrar la caja al cierre.</p>
+
+    <p>Para registrar las operaciones automáticamente, Cuadre puede leer, con permiso de solo lectura (<code>gmail.readonly</code>), los correos de notificación que envían el BCP y Yape a una cuenta de Gmail del propio negocio. No envía, borra ni modifica correos.</p>
+
+    <p>La aplicación no está abierta al público: solo la usan el dueño del negocio y su personal.</p>
+
+    <p><a href="privacidad.html">Política de privacidad</a></p>
+  </main>
+</body>
+</html>
